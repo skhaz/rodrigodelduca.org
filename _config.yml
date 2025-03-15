@@ -1,6 +1,6 @@
 name: Rodrigo Delduca
 bio: "Always constantly learn; otherwise, you're doomed to irrelevance"
-repository: skhaz/rodrigodelduca.com.br
+repository: skhaz/rodrigodelduca.org
 
 external-image: false
 picture: assets/images/avatar.png
@@ -23,7 +23,7 @@ vcard-url:
 talks: true
 talks-url: https://speakerdeck.com/skhaz
 
-url: https://rodrigodelduca.com.br
+url: https://rodrigodelduca.org
 
 permalink: /:title/
 
