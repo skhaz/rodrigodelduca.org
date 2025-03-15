@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <title>Rodrigo Delduca</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="tags" content="resume">
+        <meta name="description" content="Rodrigo Delduca’s Resume">
+
+        <style>
+             body {
+   --base-background-color: #ffffff;
+   --document-background-color: var(--base-background-color);
+ }
+
+.document-wrapper {
+  /* Constants used to transform theme values to CSS */
+  --transform-line-height-factor: 1.17;
+
+  /* From template */
+  --base-text-color: #444444;
+  --base-text-secondary-color: #888888;
+  --base-text-tertiary-color: #d9d9d9;
+  --base-background-color: #ffffff;
+  --base-background-secondary-color: #F3F5F7;
+  --base-background-tertiary-color: #E4E5E6;
+  --base-stroke-color: #d9d9d9;
+  --base-stroke-secondary-color: #d9d9d9;
+  --base-accent-color: #DD4C4F;
+  --base-highlight-color: ;
+
+  --document-background-color: var(--base-background-color);
+  --document-text-color: var(--base-text-color);
+  --document-text-secondary-color: var(--base-text-secondary-color);
+  --document-text-light-color: var(--base-text-secondary-color);
+  --document-accent-color: var(--base-accent-color);
+  --document-cursor-color: var(--base-accent-color);
+  --document-link-color: var(--base-accent-color);
+  --document-list-marker-color: var(--base-accent-color);
+  --document-marker-color: var(--base-text-tertiary-color);
+  --document-selection-color: var(--base-selection-color);
+  --document-selection-inactive-color: var(--base-background-tertiary-color);
+  --document-text-font: "AvenirNext-Regular";
+  --document-text-size: 15px;
+  --document-line-height-multiplier: calc(
+    1.5 * var(--transform-line-height-factor)
+  );
+
+  --document-headers-text-color: var(--base-text-color);
+  --document-headers-font: "AvenirNext-Medium";
+  --document-headers-modular-scale: 1.125;
+  --document-headers-line-height-multiplier: calc(
+    1.3 * var(--transform-line-height-factor)
+  );
+  --document-headers-add-top-bottom-padding: 1;
+  --document-headers-padding-top-multiplier: 0.5;
+  --document-headers-padding-bottom-multiplier: 0.3;
+
+  --document-code-text-color: var(--base-text-color);
+  --document-code-border-color: var(--base-text-tertiary-color);
+  --document-code-background-color: var(--base-background-secondary-color);
+  --document-code-font: "Menlo-Regular";
+  --document-code-text-size-multiplier: 0.91em;
+
+  --document-code-syntax-highlight-comment: #65798c;
+  --document-code-syntax-highlight-constant: #0095c9;
+  --document-code-syntax-highlight-number: #0095c9;
+  --document-code-syntax-highlight-string: #d12f1b;
+  --document-code-syntax-highlight-entity: #4a838b;
+  --document-code-syntax-highlight-keyword: #ad3da4;
+  --document-code-syntax-highlight-function: #4a838b;
+  --document-code-syntax-highlight-variable: #4a838b;
+
+  --document-task-background-color: var(--base-background-color);
+  --document-task-border-color: var(--base-text-secondary-color);
+  --document-task-check-color: var(--base-text-color);
+
+  --document-tag-background-color: var(--base-background-tertiary-color);
+  --document-tag-text-color: var(--base-text-color);
+  --document-tag-marker-color: var(--base-text-secondary-color);
+
+  --document-highlighter-background-color: #CDF7BD;
+  --document-highlighter-text-color: #102D05;
+
+  --document-highlighter-red-background-color: #FED09F;
+  --document-highlighter-red-text-color: #321A00;
+
+  --document-highlighter-blue-background-color: #C9E5FF;
+  --document-highlighter-blue-text-color: #001A32;
+
+  --document-highlighter-green-background-color: #CDF7BD;
+  --document-highlighter-green-text-color: #102D05;
+
+  --document-highlighter-purple-background-color: #FEDAFF;
+  --document-highlighter-purple-text-color: #310032;
+
+  --document-highlighter-yellow-background-color: #FCF195;
+  --document-highlighter-yellow-text-color: #312C01;
+
+  --document-file-fold-color: var(--base-background-tertiary-color);
+  --document-file-background-color: var(--base-background-secondary-color);
+
+  --document-separator-border-color: var(--base-stroke-secondary-color);
+
+  --document-table-border-color: var(--base-stroke-secondary-color);
+  --document-table-cell-background-color: var(--base-background-color);
+  --document-table-cell-alternate-background-color: var(
+    --base-background-secondary-color
+  );
+}
+
+.document-wrapper,body{background-color:var(--document-background-color)}.document-wrapper h1.setext,.document-wrapper h2.setext{border-bottom:calc(2 * var(--document-hairline-width)) solid var(--document-separator-border-color);padding-bottom:.6em}.document-wrapper blockquote blockquote blockquote blockquote blockquote::before,.document-wrapper blockquote blockquote blockquote::before,.document-wrapper blockquote::before{background-color:var(--document-list-marker-color)}.document-wrapper td[data-alignment="1"],.document-wrapper th{text-align:left}.document-wrapper :after,.document-wrapper :before,.document-wrapper a,.document-wrapper abbr,.document-wrapper acronym,.document-wrapper address,.document-wrapper applet,.document-wrapper article,.document-wrapper aside,.document-wrapper audio,.document-wrapper b,.document-wrapper big,.document-wrapper blockquote,.document-wrapper canvas,.document-wrapper caption,.document-wrapper center,.document-wrapper cite,.document-wrapper code,.document-wrapper dd,.document-wrapper del,.document-wrapper details,.document-wrapper dfn,.document-wrapper div,.document-wrapper dl,.document-wrapper dt,.document-wrapper em,.document-wrapper embed,.document-wrapper fieldset,.document-wrapper figcaption,.document-wrapper figure,.document-wrapper footer,.document-wrapper form,.document-wrapper h1,.document-wrapper h2,.document-wrapper h3,.document-wrapper h4,.document-wrapper h5,.document-wrapper h6,.document-wrapper header,.document-wrapper hgroup,.document-wrapper i,.document-wrapper iframe,.document-wrapper ins,.document-wrapper kbd,.document-wrapper label,.document-wrapper legend,.document-wrapper li,.document-wrapper mark,.document-wrapper menu,.document-wrapper nav,.document-wrapper object,.document-wrapper ol,.document-wrapper output,.document-wrapper p,.document-wrapper pre,.document-wrapper q,.document-wrapper ruby,.document-wrapper s,.document-wrapper samp,.document-wrapper section,.document-wrapper small,.document-wrapper span,.document-wrapper strike,.document-wrapper strong,.document-wrapper summary,.document-wrapper table,.document-wrapper tbody,.document-wrapper td,.document-wrapper tfoot,.document-wrapper th,.document-wrapper thead,.document-wrapper time,.document-wrapper tr,.document-wrapper tt,.document-wrapper u,.document-wrapper ul,.document-wrapper var,.document-wrapper video{all:unset}.document-wrapper{--document-inline-padding-top-bottom:0.25em;--document-inline-padding-left-right:0.25em;--header-1-font-size:2em;--header-2-font-size:1.6em;--header-3-font-size:1.27em;--document-hairline-width:calc(var(--document-text-size) / 15);box-sizing:border-box;color:var(--document-text-color);font-family:var(--document-text-font);font-size:var(--document-text-size);line-height:var(--document-line-height-multiplier);min-height:100%;max-width:48em;width:100%;tab-size:4;margin:0 auto;padding:0 2em}body{text-rendering:optimizeLegibility}.document-wrapper:focus-visible{outline:0}.document-wrapper .marker{color:var(--document-marker-color);display:none}.document-wrapper [data-direction="2"]{direction:rtl}.document-wrapper div.footnote,.document-wrapper div.link-definition,.document-wrapper p{display:block}.document-wrapper p.blank-line::before{content:" "}.document-wrapper h1,.document-wrapper h2,.document-wrapper h3,.document-wrapper h4,.document-wrapper h5,.document-wrapper h6{font-family:var(--document-headers-font);display:block;line-height:var(--document-headers-line-height-multiplier)}.document-wrapper h1{font-size:var(--header-1-font-size);padding-block-start:0.8em;padding-block-end:0.33em}.document-wrapper h2{font-size:var(--header-2-font-size);padding-block-start:0.66em;padding-block-end:0.27em}.document-wrapper h3{font-size:var(--header-3-font-size);padding-block-start:0.53em;padding-block-end:0.27em}.document-wrapper code,.document-wrapper pre{font-size:var(--document-code-text-size-multiplier);font-family:var(--document-code-font),monospace}.document-wrapper h4,.document-wrapper h5,.document-wrapper h6{padding-block-start:0.4em;padding-block-end:0.27em}.document-wrapper h1.setext{margin-bottom:.45em}.document-wrapper h2.setext{margin-bottom:.2em}.document-wrapper .fenced-code *,.document-wrapper .fenced-code-content .marker,.document-wrapper .fenced-code-content .space,.document-wrapper .hard-linebreak-marker,.document-wrapper .image .space,.document-wrapper .image-destination,.document-wrapper .image-label,.document-wrapper .image-title,.document-wrapper .indented-code .space,.document-wrapper .link .space,.document-wrapper .link-destination,.document-wrapper .link-label,.document-wrapper .link-title,.document-wrapper .replace .text,.document-wrapper .setext-heading-marker+.line-ending,.document-wrapper .yaml-marker+.line-ending,.document-wrapper li>p>.space:first-child,.document-wrapper tr.delimiter-row{display:none}.document-wrapper ol,.document-wrapper ul{display:block;padding-inline-start:2.13em}.document-wrapper li{display:list-item;color:var(--document-text-color)}.document-wrapper .color-marker,.document-wrapper .entity-marker,.document-wrapper .fenced-code-content,.document-wrapper .fenced-code-content *,.document-wrapper .footnote-separator,.document-wrapper .link-definition-separator,.document-wrapper code.code-inline,.document-wrapper li>p{display:inline}.document-wrapper ul{list-style-type:disc}.document-wrapper li li li li li li li ul,.document-wrapper li li li li li ul,.document-wrapper li li li ul,.document-wrapper li ul{list-style:circle}.document-wrapper li li li li li li ul,.document-wrapper li li li li ul,.document-wrapper li li ul{list-style:disc}.document-wrapper li::marker{color:var(--document-list-marker-color)}.document-wrapper ol{list-style-type:none;counter-reset:custom-list-item calc(var(--data-list-start,1) - 1)}.document-wrapper ol>li{counter-increment:custom-list-item;position:relative}.document-wrapper ol>li::before{content:counter(custom-list-item) ". ";color:var(--document-list-marker-color);position:absolute;transform:translate(calc(-100% - .33em),0)}.document-wrapper ol>li[data-big-number=true]{margin-inline-start:-2.05em}.document-wrapper ol>li[data-big-number=true]::before{position:static;padding-inline-end:0.25em}.document-wrapper ol>li[data-list-type="1"]:before{content:counter(custom-list-item) ") "}.document-wrapper [data-direction="2"] ol>li::before,.document-wrapper ol[data-direction="2"]>li::before{transform:translate(calc(100% + .33em),0)}.document-wrapper li[role=checkbox]{list-style:none;position:relative}.document-wrapper li[aria-checked=true]{color:var(--document-text-secondary-color)}.document-wrapper .todo-checkbox{display:inline-block;margin-left:-1.7em;margin-right:.5em}.document-wrapper .todo-checkbox svg{display:inline-block;margin-bottom:-.3em}.document-wrapper blockquote{display:block;padding-inline-start:2.13em;position:relative}.document-wrapper code,.document-wrapper mark,span.highlighted{padding:var(--document-inline-padding-top-bottom) var(--document-inline-padding-left-right)}.document-wrapper blockquote::before{content:"";position:absolute;top:.2em;left:1em;width:.13em;height:calc(100% - .4em);border:var(--document-hairline-width) solid var(--document-list-marker-color);border-radius:.33em}.document-wrapper code,.document-wrapper pre.fenced-code,.document-wrapper pre.indented-code,.document-wrapper pre.yaml{color:var(--document-code-text-color);background-color:var(--document-code-background-color);border-radius:.25em}.document-wrapper [data-direction="2"] blockquote::before,.document-wrapper blockquote[data-direction="2"]::before{left:0;right:1em}.document-wrapper blockquote blockquote blockquote blockquote blockquote blockquote::before,.document-wrapper blockquote blockquote blockquote blockquote::before,.document-wrapper blockquote blockquote::before{background-color:transparent}.document-wrapper hr{display:block;margin-block-start:calc(var(--document-line-height-multiplier) * 0.5em);margin-block-end:calc(var(--document-line-height-multiplier) * -0.5em);border-top:var(--document-hairline-width) solid var(--document-separator-border-color)}.document-wrapper pre{display:block;white-space:pre-wrap}.document-wrapper pre.indented-code{padding-inline-start:2.13em}.document-wrapper pre.fenced-code,.document-wrapper pre.yaml{padding:0 .5em}.document-wrapper .fenced-code::before{content:"\200B"}.document-wrapper code{font-weight:400;font-style:normal;display:block}.document-wrapper mark code{color:var(--document-text-color);background-color:var(--document-highlighter-background-color)}.document-wrapper em,.document-wrapper i{font-family:AvenirNext-Italic}.document-wrapper b,.document-wrapper strong,.document-wrapper th{font-family:AvenirNext-Bold}.document-wrapper mark,span.highlighted{color:var(--document-highlighter-background-text-color);background-color:var(--document-highlighter-background-color);text-decoration:inherit;unicode-bidi:embed;border-radius:.25em}.document-wrapper mark.red,span.highlighted.red{color:var(--document-highlighter-red-background-text-color);background-color:var(--document-highlighter-red-background-color)}.document-wrapper mark.blue,span.highlighted.blue{color:var(--document-highlighter-blue-background-text-color);background-color:var(--document-highlighter-blue-background-color)}.document-wrapper mark.green,span.highlighted.green{color:var(--document-highlighter-green-background-text-color);background-color:var(--document-highlighter-green-background-color)}.document-wrapper mark.yellow,span.highlighted.yellow{color:var(--document-highlighter-yellow-background-text-color);background-color:var(--document-highlighter-yellow-background-color)}.document-wrapper mark.purple,span.highlighted.purple{color:var(--document-highlighter-purple-background-text-color);background-color:var(--document-highlighter-purple-background-color)}.document-wrapper u{text-decoration:underline;text-decoration-color:var(--document-accent-color);unicode-bidi:embed}.document-wrapper s,.document-wrapper strike{text-decoration:line-through}.document-wrapper a{color:var(--document-link-color);unicode-bidi:embed;cursor:pointer}.document-wrapper a:hover{text-decoration:inherit}.document-wrapper .wiki-separator-marker{display:inline;color:inherit}.document-wrapper .link-definition-title{color:var(--document-text-light-color)}.document-wrapper .footnote-ref{font-size:.9em;vertical-align:super}.document-wrapper span.entity{direction:ltr;unicode-bidi:embed;color:var(--document-code-syntax-highlight-entity)}.document-wrapper span.escape{unicode-bidi:embed}.document-wrapper .color{font-family:var(--document-code-font),monospace;font-size:var(--document-code-text-size-multiplier);padding-inline-start:1.2em;position:relative;direction:ltr;unicode-bidi:embed}.document-wrapper .color::before{content:"";position:absolute;width:.9em;height:.9em;left:0;bottom:0;transform:translateY(-15%);border:var(--document-hairline-width) solid rgb(0,0,0,.3);border-radius:.9em;background-color:var(--data-color)}.document-wrapper .hashtag{color:var(--document-tag-text-color);background-color:var(--document-tag-background-color);border-radius:1em;padding:calc(var(--document-inline-padding-top-bottom) - 2 * var(--document-hairline-width)) calc(var(--document-inline-padding-left-right) + .3em);unicode-bidi:embed}.document-wrapper .hashtag>.marker{display:inline;color:var(--document-tag-marker-color);padding:0}.document-wrapper table{display:block;max-width:fit-content;overflow-x:auto;border-collapse:separate;border-spacing:0;border:var(--document-hairline-width) solid var(--document-table-border-color);border-radius:.33em;margin-bottom:calc(var(--document-line-height-multiplier) * 1em)}.document-wrapper table[data-direction="2"]{margin-left:auto;direction:ltr}.document-wrapper tr{display:table-row;background-color:var(--document-table-cell-background-color)}.document-wrapper tr.header-row,.document-wrapper tr:nth-child(odd){background-color:var(--document-table-cell-alternate-background-color)}.document-wrapper td,.document-wrapper th{box-sizing:border-box;display:table-cell;padding:.37em .75em;min-width:5em;border-right:var(--document-hairline-width) solid var(--document-table-border-color)}.document-wrapper td:last-of-type,.document-wrapper th:last-of-type{border:none}.document-wrapper table[data-direction="2"] td{margin-left:auto}.document-wrapper td[data-alignment="2"]{text-align:right}.document-wrapper td[data-alignment="3"]{text-align:center}.document-wrapper .code_comment{color:var(--document-code-syntax-highlight-comment)}.document-wrapper .code_constant{color:var(--document-code-syntax-highlight-constant)}.document-wrapper .code_number{color:var(--document-code-syntax-highlight-number)}.document-wrapper .code_string{color:var(--document-code-syntax-highlight-string)}.document-wrapper .code_entity{color:var(--document-code-syntax-highlight-entity)}.document-wrapper .code_keyword{color:var(--document-code-syntax-highlight-keyword)}.document-wrapper .code_function{color:var(--document-code-syntax-highlight-function)}.document-wrapper .code_variable{color:var(--document-code-syntax-highlight-variable)}.document-wrapper img{max-width:100%}.document-wrapper .pdf_preview{display:inline-block;width:100%;height:500px;background-color:#fff;overflow:hidden;padding:0;margin:0;position:relative;border-radius:4px}.document-wrapper .arrow svg #body,.document-wrapper .arrow svg #head{fill:var(--base-text-color)}.document-wrapper .todo-checkbox svg #body{stroke:var(--document-task-border-color)}.document-wrapper .todo-checkbox svg #check{fill:var(--document-task-check-color)}.document-wrapper .todo-checkbox.todo-checked svg #body{opacity:.35}.document-wrapper .todo-checkbox.todo-checked svg #check{opacity:.4}
+
+        </style>
+    </head>
+    <body>
+        <div class="document-wrapper">
+            <h1 id='Rodrigo Delduca'>Rodrigo Delduca</h1><h3 id='Contact'>Contact</h3><br>
+<ul>
+<li>Email <a href='mailto:rodrigo@delduca.org'>rodrigo@delduca.org</a></li>
+<li>Web <a href='https://rodrigodelduca.com.br'>rodrigodelduca.com.br</a></li>
+<li>Blog <a href='https://nullonerror.org'>nullonerror.org</a></li>
+<li>GitHub <a href='https://github.com/skhaz'>github.com/skhaz</a></li>
+<li>LinkedIn <a href='https://www.linkedin.com/in/skhaz'>linkedin.com/in/skhaz</a></li>
+<li>Location <a href='https://maps.app.goo.gl/7njhVRpE8YY8MWvV7'>Santa Catarina, Brazil</a></li>
+</ul><br>
+<h3 id='Summary'>Summary</h3><br>
+<p>Technology buff, frugal architect, and code sorcerer with nearly two decades of expertise in C++, Python, TypeScript, Go, React, Cloud, Kubernetes, Serverless, and proficiency in SQL and NoSQL databases.</p><br>
+<h3 id='Skills'>Skills</h3><br>
+<p><b>Programming</b> C, C++, Python, TypeScript, JavaScript, Go, and Shell Script.<br>
+<b>Intelligence</b>  Advanced Prompt Techniques, LangChain, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Vector Databases and Search, Pandas, PyTorch, and NumPy.<br>
+<b>Backend</b> Flask, FastAPI, Django, Gin, Express, and Nest.js.<br>
+<b>Frontend</b> React, Storybook, Cascading Style Sheets, Atomic Design, and Next.js.<br>
+<b>Mobile</b> Android, Java, Kotlin, iOS, Objective-C, and Swift.<br>
+<b>Databases</b> MySQL, PostgreSQL, Redis, Cosmos, Dynamo, Firestore, ElasticSearch, and Kendra.<br>
+<b>DevOps</b> Docker, Kubernetes, Terraform, Bitbucket & GitLab pipelines, and GitHub Actions.<br>
+<b>Cloud</b> Amazon Web Services, Google Cloud Platform, Microsoft Azure, and Cloudflare.<br>
+<b>Architecture</b> SOLID, Clean Code, Command and Query Responsibility Segregation (CQRS), Model–view–controller (MVC), and Model–view–viewmodel (MVVM).<br>
+<b>Monitoring</b> Datadog, and Prometheus & Grafana.<br>
+<b>Soft</b> Resilience, determination, confidence, teamwork, self-motivation, and assertive communication.<br>
+<b>Natural Languages</b> Portuguese, English, and Spanish.</p><br>
+<h3 id='Recommendations'>Recommendations</h3><br>
+<blockquote>
+<p>Rodrigo is a “code sorcerer” a developer who goes beyond the hardcore. His expertise spans from backend development and game programming to bash scripting and distributed lambdas in low level languages, consistently delivering elegant, optimized, and high-performance solutions. In addition to his technical skills, he excels in tackling challenging projects and complex architectures while maintaining a collaborative and friendly team spirit.</p>
+</blockquote><br>
+<p><a href='https://www.linkedin.com/in/vinigodoy/'><i>Vinícius Godoy de Mendonça</i></a> was my manager at <a href='https://www.positivotecnologia.com.br'>Positivo Informática</a>.</p><br>
+<blockquote>
+<p>Rodrigo took full ownership of a large project, creatively solved difficult problems, and engaged in insightful discussions about API design and best practices for new initiatives.</p>
+</blockquote><br>
+<p><a href='https://www.linkedin.com/in/grantlucas/'>Grant Lucas</a> was my manager at <a href='https://www.hostpapa.com'>HostPapa</a></p><br>
+<blockquote>
+<p>Rodrigo is an exceptional software engineer with deep expertise in computer architecture. At Blinktrade, he led complex projects by overseeing the architecture and managing a team of senior developers, ensuring both team cohesion and project success.</p>
+</blockquote><br>
+<p>I managed <a href='https://www.linkedin.com/in/andreiregiani/'>Andrei Regiani</a> at <a href='https://blinktrade.com'>Blinktrade</a>.</p><br>
+<h3 id='Experience'>Experience</h3><br>
+<h3 id='[Kashmir Intelligence](https://www.kashmirintelligence.com/)'><a href='https://www.kashmirintelligence.com/'>Kashmir Intelligence</a></h3><p><b>Principal Software Engineer</b><br>
+<i>London, England, United Kingdom (Remote) / October 2024 - Present</i></p><br>
+<h3 id='[Skie](https://www.skie.io/)'><a href='https://www.skie.io/'>Skie</a></h3><p><b>Lead Software Engineer, Senior Software Engineer</b><br>
+<i>Charlotte, North Carolina, United States (Remote) / February 2024 ‑ October 2024</i></p><ul>
+<li>Worn multiple hats across various projects, acting as a versatile developer, from cloud cost optimization to automation chatbots.</li>
+<li>Worked on task and chatbot automation projects using LLM for one of the <i>Fortune Global 500</i> companies specializing in cloud, focusing on reducing labor costs and saving time, leveraging technologies such as Python, LangChain, vector databases (Amazon Kendra), retrieval-augmented generation (RAG), FastAPI, OpenAPI, Celery, Kubernetes, Docker, botbuilder, and Microsoft Teams.</li>
+<li>Collaborated on extract, transform, and load (ETL) and linear programming projects aimed at generating projections of potential cloud cost savings using Python, linear solvers, HDF5, Pandas, Numpy, Timescale, Postgres, and Amazon and Azure cost APIs.</li>
+<li>Mentored intermediate-level engineers, providing guidance to help them achieve project objectives and advance their careers.</li>
+<li>Technologies used: Python, Celery, Large Language Model (LLM), Retrieval-Augmented Generation (RAG), Vector Database (Kendra), LangChain, OpenAI, Docker, Kubernetes, Amazon Web Services, and Microsoft Azure.</li>
+</ul><br>
+<h3 id='[Fueled](https://fueled.com/en-gb)'><a href='https://fueled.com/en-gb'>Fueled</a></h3><p><b>Lead Software Engineer, Senior Software Engineer</b><br>
+<i>New York, New York, United States (Remote) / January 2023 ‑ February 2024</i></p><ul>
+<li>Worked on the social network for Victoria’s Secret, which currently has tens of millions of users and approximately 10,000 active daily users. The project leveraged Go, Redis, Discourse, RESTful APIs, Kubernetes, and Microsoft Azure.</li>
+<li>Worked for NationBenefits Pro, at its launch, it had approximately half a million registered users. The project leveraged technologies such as React, Next.js, Nest.js, TypeScript, Cosmos, GraphQL, OpenID Connect, and Microsoft Azure.</li>
+<li>Worked for Tony Robbins, a "Google Calendar on steroids". The project utilized Python, Django, Celery, PostgreSQL, Redis, Amazon Elastic Container Service, and Amazon Relational Database Service.</li>
+<li>Migrated a project that used PostgreSQL and Redis to Cosmos to achieve active-active replication across the edges of the United States and reduce costs by tenfold.</li>
+<li>Authored technical articles for <a href='https://fueled.com/the-cache/'>https://fueled.com/the-cache/</a>.</li>
+<li>Technologies used: React, Next.js, TypeScript, Nest.js, GraphQL, Azure Cosmos, OpenID Connect, Go, RESTful APIs, Docker, Kubernetes, Redis, Active-active Replication, Microsoft Azure, Python, Django (with Graphene), SOLID, Clean Code, Postgres, Amazon Elastic Container Service, Amazon Relational Database Service, ElastiCache, Amazon Web Services, CQRS (Command and Query Responsibility Segregation), Clean Code, Clean Architecture.</li>
+</ul><br>
+<h3 id='[Ultratech Software](https://ultratech.software/)'><a href='https://ultratech.software/'>Ultratech Software</a></h3><p><b>Senior Software Engineering Consultant</b><br>
+<i>São Paulo, São Paulo, Brazil (Remote) / July 2014 - Present</i></p><ul>
+<li>Consulting services for cloud, mobile, and embedded systems for a smart collar for dogs.</li>
+<li>Designed a data-intensive backend that receives large amounts of data from IMU sensors, processes it, and submits it to an ML/AI model for activity inference.</li>
+</ul><ul>
+<li>Reduced network payload by approximately 40% simply by restructuring data layout.</li>
+<li>Decreased data transmitted between the collar and the cloud by about 60% by employing ZStandard compression.</li>
+<li>Improved accuracy by 100% in detecting if the user is in the car during a walk using both undocumented and documented APIs from iOS and Android.</li>
+<li>Developed server-less backend to handle MQTT via IoT Core and HTTP using API Gateway, both utilizing AWS Lambda.</li>
+<li>Engineered complex architectures using algorithms and non-relational databases.</li>
+<li>Designed complex pipelines for calculating walk metrics and calorie expenditure.</li>
+</ul><br>
+<h3 id='[Hostpapa](https://www.hostpapa.com/)'><a href='https://www.hostpapa.com/'>Hostpapa</a></h3><p><b>Senior Software Engineer</b><br>
+Burlington, Ontario, Canada (Remote) / March 2022 ‑ December 2022</p><ul>
+<li>They acquired a major WooCommerce hosting provider, WooCart, and needed someone with extensive experience in Kubernetes and Python. I fixed numerous bugs and helped them get the platform running smoothly. I also implemented new features, with some going into production while others were outside the scope. It was one of the largest Kubernetes clusters I’ve had the opportunity to work on to date. I take pride in having upgraded the clusters and pods without any downtime, supporting over 200 websites.</li>
+<li>Maintained and implemented new features, fixed bugs, and wrote unit tests for <u><a href='https://woocart.com/'>WooCart</a></u>, a managed WooCommerce platform that runs on top of Kubernetes and is used by hundreds of customers.</li>
+<li>Provided support to WooCart customers, working together with the support team and helping to resolve issues that the support team could not address.</li>
+<li>Added support for simultaneously using PHP 7 and 8 in WooCart, allowing users to switch between versions by simply toggling a flag.</li>
+<li>Designed a RESTful API in OpenAPI 3.1 using the API-first approach and other best practices, such as Hypertext Application Language (HAL) and Problem Details for HTTP APIs.</li>
+<li>Added support for SSL using Cloudflare for SaaS for all customers, eliminating the need for a separate certificate.</li>
+<li>Bootstrapped a project in Go for managing site deployments inside a Kubernetes cluster.</li>
+<li>Wrote technical documentation, guides, postmortems, and other resources on Notion.</li>
+</ul><br>
+<h3 id='[Blinktrade](https://blinktrade.com/)'><a href='https://blinktrade.com/'>Blinktrade</a></h3><p><b>Chief Technical Officer (Hands-On)</b><br>
+<i>New York, New York, United States (Remote) / January 2021 ‑ March 2022</i></p><ul>
+<li>At a certain point, Blinktrade shifted its focus, and I was tasked with becoming the new Chief Technical Officer. My primary responsibility was to create a new product. In order to do this, I needed to get things in order and hire backend and frontend developers. In addition to administrative tasks, I was hands-on throughout the entire process, constantly involved with both frontend and backend code, as well as infrastructure.</li>
+<li>Developed solutions using Blockchain and Solidity, Ethers.js, Brownie, DAO, and OpenZeppelin for <u><a href='https://app.naka.ai/'>Naka</a></u>, a tool for bookkeeping, accountancy, KYC, and AML.</li>
+<li>Built three MVPs and put them in production in less than a month each using TypeScript, React, Next.js, and Python. Each MVP had the objective of testing the impact of some ideas on the peer-to-peer crypto market.</li>
+<li>Built a solid, reentrant, and idempotent backend using Cloud Run, PubSub, Redis, Python, Flask, and other libraries for generating massive KYC and AML reports that rely on dozens of external services.</li>
+<li>Organized the frontend project using atomic design and Storybook, enabling stakeholders to follow the progress and give feedback on each component.</li>
+<li>Implemented a culture of continuous delivery using GitHub Actions and Docker for CI/CD pipelines in all projects, allowing other engineers to focus on creating core features.</li>
+<li>Built a WhatsApp assistant that helped crypto sellers negotiate, written with TypeScript, Redis, Puppeteer, and Express; it used the Bitcoin Lightning Network to accept payments.</li>
+<li>Interviewed candidates for backend and frontend positions to build a highly productive and awesome team.</li>
+<li>Reduced the costs of cloud services by up to 90% by using Serverless.</li>
+<li>Technologies used: Python, Cloud Run, PubSub, React, Next.js, TypeScript, Puppeteer, Jest, Cypress, Storybook, Firebase, Firestore, BigQuery, Redis, Express, Docker, and Google Cloud Platform.</li>
+</ul><br>
+<h3 id='[Blinktrade](https://blinktrade.com/)'><a href='https://blinktrade.com/'>Blinktrade</a></h3><p><b>Senior Software Engineer</b><br>
+<i>New York, New York, United States (Remote) / December 2017 ‑ January 2021</i></p><ul>
+<li>While my main focus was on Python and backend development, I wore many hats. I assisted with infrastructure, set up all projects to be as cloud-native as possible, and deployed them on Kubernetes with Docker. I created numerous prototypes and scripts, and also worked with machine learning using TensorFlow and Keras.</li>
+<li>Led and developed a React and Android mobile project using Firebase server-less functions, Firestore, and Google Cloud.</li>
+<li>Developed a real-time chatting app with end-to-end encryption support using OpenPGP, React, Firebase, Cloud Functions, and Firestore.</li>
+<li>Automated bank transfers using Appium, Selenium, Video4Linux2, Redis for the queue, and Python; with this automation, we could withdraw using the bank’s app for the exchange’s customers.</li>
+<li>Automated receipt identification using machine learning with Keras, TensorFlow, and Cloud Vision for OCR.</li>
+<li>Created a proof of concept using the Video4Linux2 kernel module that loopbacks an image with a QR code to a virtual camera of an Android emulator running a bank’s app.</li>
+<li>Significantly improved the security of legacy code and increased test coverage by 30%.</li>
+<li>Built several Telegram bots for automating internal tasks in a ChatOps interface.</li>
+<li>Containerized all apps using Docker and orchestrated them using Kubernetes with CI and CD.</li>
+<li>Technologies used: Python, React, TypeScript, Jest, Cypress, Android, TensorFlow, Keras, Firebase, Firestore, Redis, ShellScript, Docker, Kubernetes, and Google Cloud Platform.</li>
+</ul><br>
+<h3 id='[First Foundry](https://www.firstfoundry.co/)'><a href='https://www.firstfoundry.co/'>First Foundry</a></h3><p><b>Senior Software Engineer</b><br>
+<i>Eugene, Oregon, United States (Remote) / July 2016 ‑ December 2017</i></p><ul>
+<li>Primarily worked on the backend of an app for bars and restaurants that serves all of the United States. The biggest challenge was dealing with the eventual consistency of Couchbase, which was used for real-time communication with the mobile apps.</li>
+<li>Worked on the <u><a href='https://tabbedout.com/'>TabbedOut</a></u> backend using Python, Falcon, SQLAlchemy, MySQL, unit testing, Factoryboy, RESTful APIs, Celery, Couchbase, and Sync Gateway.</li>
+<li>Developed mobile applications in React Native, Swift, and Couchbase Mobile.</li>
+<li>Researched alternative technologies for mobile development, including Xamarin, React Native, Qt, PWA, Flutter, and many others, to choose the new tech stack for the company.</li>
+<li>Created a proof of concept in GraphQL to determine if it would solve the endpoint issues in future projects.</li>
+<li>Mentored an intern and helped him get started with Django and Python.</li>
+<li>Technologies used: Python, Falcon, Django, MySQL, Couchbase, Redis, Celery, React Native, Swift, and Amazon Web Services.</li>
+</ul><br>
+<h3 id='[R/GA](https://www.rga.com/)'><a href='https://www.rga.com/'>R/GA</a></h3><p><b>Senior Software Engineer</b><br>
+<i>São Paulo, São Paulo, Brazil / January 2016 ‑ July 2016</i></p><ul>
+<li>In this globally renowned agency known for its excellence, I was hired as a staff augmentation to work with iOS and Swift.</li>
+<li>Worked on <u><a href='https://next.me/'>Next</a></u>, a digital version of Bradesco, one of the largest banks in Brazil. Developed in Swift for iOS, using the Model-View-ViewModel (MVVM) pattern with Reactive Programming and Realm as a database.</li>
+<li>Technologies used: Swift, iOS, Model-View-ViewModel (MVVM), Realm, Reactive Programming, and RxSwift.</li>
+</ul><br>
+<h3 id='[QuintoAndar](https://www.quintoandar.com.br/)'><a href='https://www.quintoandar.com.br/'>QuintoAndar</a></h3><p><b>Senior Software Engineer</b><br>
+<i>São Paulo, São Paulo, Brazil / January 2015 ‑ January2016</i></p><ul>
+<li>I was the first mobile engineer responsible for creating the initial Android and iOS apps for one of the biggest unicorns in Latin America.</li>
+<li>Android development using RxJava, Dagger 2, ButterKnife, Realm, and Retrofit.</li>
+<li>iOS development using Swift, RxSwift, RealmSwift, and Alamofire.</li>
+<li>Conducted research on technologies for mobile data reduction and offline capabilities.</li>
+<li>Technologies used: Python, MySQL, Couchbase, Android, iOS, Java, Swift, Reactive Programming, and Amazon Web Services.</li>
+</ul><br>
+<h3 id='[Adsolut](http://www.adsolut.com.br/)'><a href='http://www.adsolut.com.br/'>Adsolut</a></h3><p><b>Senior Software Engineer</b><br>
+<i>São Paulo, São Paulo, Brazil / February 2014 ‑ January 2015</i></p><ul>
+<li>Created dozens of Python scrapers and deployed them in the cloud, saving the data to MongoDB for later analysis. Additionally, I worked on a radio player in C++ using Qt.</li>
+<li>Wrote hundreds of e‑commerce web crawlers in Python using the Scrapy framework for price aggregation and monitoring.</li>
+<li>Developed an online turn‑based game scalable server named "Mimicados," written in Python and running on AWS infrastructure, using Flask, Celery, RESTful, Facebook SDK, Amazon Elastic Beanstalk, SNS, Boto, S3, Elastic Transcoder, and RDS.</li>
+<li>Worked on a Qt online radio app for desktop written using QtQuick and Qt QML; for audio and video, developed an in‑house wrapper of the libVLC in C.</li>
+<li>Optimized content delivery using Thumbor, deployed using Docker.</li>
+<li>Technologies used: C++, Qt, libVLC, QtQuick, QML, Android, Python, Django, Flask, PostgreSQL, Scrapy, MongoDB, Elastic Beanstalk, Elastic Transcoder, S3, and Amazon Web Services.</li>
+</ul><br>
+<h3 id='[Mobii](http://www.mobii.com.br/)'><a href='http://www.mobii.com.br/'>Mobii</a></h3><p><b>Senior Software Engineer</b><br>
+<i>São Paulo, São Paulo, Brazil / September 2013 ‑ February 2014</i></p><ul>
+<li>Joined the company at its inception as the sole developer. I was tasked with implementing a proof-of-concept taxi app for iOS and Android using native development without relying on cross-platform frameworks.</li>
+<li>Worked on payment solutions for Taxi using <u><a href='https://www.semparar.com.br/'>SemParar</a></u> systems.</li>
+<li>Developed the iOS app for passengers using Objective-C.</li>
+<li>Developed the Android app for passengers and taxi drivers using Java.</li>
+<li>Back-end development using Java, Objectify, Google Cloud Datastore, and App Engine.</li>
+<li>Developed a RESTful API for dispatching push notifications for Google and Apple services, using Django, Celery, Redis, and TastyPie running on Amazon AWS.</li>
+<li>Wrote Python scripts for task automation, message dispatching with ZeroMQ, filesystem monitoring, and supervisor.</li>
+<li>Created web crawlers for account validation.</li>
+<li>Technologies used: Android, Java, iOS, Objective-C, Google App Engine, ZeroMQ, Celery, Django, REST, Python, and Amazon Web Services.</li>
+</ul><br>
+<h3 id='[Ortiz Gaming](https://ortizgaming.com/en/)'><a href='https://ortizgaming.com/en/'>Ortiz Gaming</a></h3><p><b>Senior Software Engineer</b><br>
+_São Paulo, São Paulo, Brazil / January 2013 ‑ September 2013</p><ul>
+<li>Worked in a high-caliber team to deliver the best casino gaming experience. Developed a bidirectional protocol between the C++ backend and the Shiva3D frontend using Lua for system configuration, with support for various widgets.</li>
+<li>Developed an embedded server written in C++ using Boost and other libraries.</li>
+<li>Implemented asynchronous networking and event-based integration using Boost.Asio.</li>
+<li>Scripted dynamic user interfaces in Lua.</li>
+<li>Created hybrid applications in C++ and Python using Boost.Python for binding.</li>
+<li>Technologies used: C++, Boost, Lua, embedded Linux, Python.</li>
+</ul><br>
+<h3 id='[Positivo Informática](https://www.positivotecnologia.com.br/solucoes-para-educacao/)'><a href='https://www.positivotecnologia.com.br/solucoes-para-educacao/'>Positivo Informática</a></h3><p><b>Software Engineer</b><br>
+<i>Curitiba, Paraná, Brazil / December 2010 – January 2013</i></p><ul>
+<li>Conducted extensive research related to technologies focused on education and mobile software development, which was relatively new in Brazil at the time.</li>
+<li>Worked on the Aurélio dictionary for Android, iOS, Windows, and macOS platforms.</li>
+<li>Wrote a launcher and update tool for the Aurélio dictionary in C++ and Qt.</li>
+<li>Developed a software licensing platform and authentication back-end written in C# MVC and conducted R&D for a serial number algorithm.</li>
+<li>Researched and developed the new digital learning platform for all Positivo schools and partners.</li>
+<li>Worked on a proof of concept for an eBook editor using Qt, QtWebkit, and C++.</li>
+<li>Technologies used: C++, Qt, Python, Django, Celery, Redis, MySQL, C#, .NET.</li>
+</ul><br>
+<h3 id='[Empresa Brasileira de Treinamento e Simulação](https://ebtsbr.wixsite.com/ebts/about_us)'><a href='https://ebtsbr.wixsite.com/ebts/about_us'>Empresa Brasileira de Treinamento e Simulação</a></h3><p><b>Software Engineer</b><br>
+<i>Curitiba, Paraná, Brazil / February 2010 – December 2010</i></p><ul>
+<li>Served as a tech lead, overseeing other software developers and conducting research on software and hardware to build a fully interactive simulator using six projectors.</li>
+<li>Used ARMA 2 as the engine to write a military simulator of virtual shantytowns of Rio de Janeiro. At that time, the engine could not support more than one monitor per instance. Developed a homemade synchronization of multiple instances of the engine to use the simulator on a 360-degree setup with six projectors, resulting in a demo video.</li>
+<li>Developed artificial intelligence for the enemies.</li>
+<li>Worked on a virtual shooting stand written in C# using Unity3D. Shoots were intercepted when the wall reflected the infrared from the gun and were then captured by an infrared camera; using OpenCV, it was possible to intercept the shots and translate them to the virtual 3D environment.</li>
+<li>Wrote feedback software using an HID device in C++. This device was a military vest with several motors using a proprietary protocol.</li>
+<li>Technologies used: C++, Python, C#, Unity, and OpenCV.</li>
+</ul><br>
+<h3 id='[Techfront](https://www.mobygames.com/company/9901/techfront-studios-ltd/)'><a href='https://www.mobygames.com/company/9901/techfront-studios-ltd/'>Techfront</a></h3><p><b>Software Engineer</b><br>
+<i>Curitiba, Paraná, Brazil / May 2009 ‑ February 2010</i></p><ul>
+<li>Joined a project and started from scratch. As the sole software engineer on the project, I was responsible for defining the entire architecture, components, and implementing the game logic.</li>
+<li>Worked on the game Blood Oath for Windows, developed in C++ with Lua for scripting, and a scenario editor in Qt.</li>
+<li>Technologies used: C++, Qt, SDL, Python, Lua and JavaScript.</li>
+</ul><br>
+<h3 id='[MovixTV](http://movixtv.com.br/)'><a href='http://movixtv.com.br/'>MovixTV</a></h3><p><b>Software Engineer</b><br>
+<i>Mococa, São Paulo, Brazil / May 2008 – May 2009</i></p><ul>
+<li>At that time, CDNs were extremely rare and expensive. Our server was connected to a domestic 10Mbps connection, and we needed to distribute videos to dozens of other machines. I solved the distribution problem by using the torrent protocol, where the machines shared the already downloaded data pieces with each other, relieving the server load and speeding up the total transfer time.</li>
+<li>Wrote a custom video player in C++ and Qt for embedded Linux.</li>
+<li>Implemented background batch video conversion and processing using the FFmpeg API.</li>
+<li>Helped save bandwidth by using torrents for media distribution.</li>
+<li>Developed back-office applications in Django.</li>
+<li>Technologies used: C++, Qt, FFmpeg, libtorrent, Boost, Python, Django, and PostgreSQL.</li>
+</ul><br>
+<h3 id='[NTS Informática](https://www.ntsinfo.com.br/)'><a href='https://www.ntsinfo.com.br/'>NTS Informática</a></h3><p><b>Software Engineer</b><br>
+<i>Mococa, São Paulo, Brazil / February 2006 – February 2008</i></p><ul>
+<li>This was my first job as a software engineer. I got the opportunity thanks to a 2D game engine I developed. During the interview, I presented the code, and they were impressed and hired me.</li>
+<li>Worked on an ERP system in Delphi, performed software and hardware maintenance, and managed databases.</li>
+<li>Developed automation scripts in Python.</li>
+<li>Technologies used: Python, Delphi, and Firebase.</li>
+</ul><br>
+<h3 id='Education'>Education</h3><br>
+<h3 id='[Estácio](https://estacio.br/)'><a href='https://estacio.br/'>Estácio</a></h3><p><b>Bachelor of Information Systems</b><br>
+Santa Catarina, Brazil / 2024 - Present</p><br>
+<h3 id='[Columbia Business School](https://business.columbia.edu/)'><a href='https://business.columbia.edu/'>Columbia Business School</a></h3><p><b>The Strategic Leader Program</b><br>
+<i>New York City, New York, United States (remote) / March 2021 – March 2021</i><br>
+<a href='https://www.credential.net/69d5f1d1-70fc-4bac-9542-8b48d43a3d93#gs.anbzgu'>https://www.credential.net/69d5f1d1-70fc-4bac-9542-8b48d43a3d93#gs.anbzgu</a></p>
+        </div>
+    </body>
+</html>

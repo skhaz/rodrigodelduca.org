@@ -1,0 +1,29 @@
+---
+title: "Carimbo 2D game engine, developed in modern C++ and built upon SDL, with scripting capabilities using Lua"
+layout: post
+date: 2023-11-10 00:00
+tag: c++, sdl, lua
+# image:
+headerImage: true
+projects: true
+hidden: true
+description: ""
+category: project
+author: skhaz
+externalLink: false
+---
+
+### What it do?
+
+2D game engine, developed in modern C++ and built upon SDL, with scripting capabilities using Lua, and designed to be portable to the web through WebAssembly.
+
+### What has inside?
+
+-   Modern C++
+-   SDL
+-   Lua
+
+### Links:
+
+-   Site [https://carimbo.run](https://carimbo.run).
+-   Source code [https://github.com/willtobyte/carimbo](https://github.com/willtobyte/carimbo).

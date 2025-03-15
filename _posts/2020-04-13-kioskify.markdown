@@ -1,0 +1,43 @@
+---
+title: "Kioskify - Turn any Android device into a video player kiosk"
+layout: post
+date: 2020-04-13 00:00
+tag: android
+# image:
+headerImage: true
+projects: true
+hidden: true
+description: "This project aims to be an easy way to turn an Android device into a kiosk video player; it transcodes and optimizes the videos on the cloud and distributes them using a global CDN."
+category: project
+author: skhaz
+externalLink: false
+---
+
+### What it do?
+
+This project aims to be an easy way to turn an Android device into a kiosk video player; it transcodes and optimizes the videos on the cloud and distributes them using a global CDN.
+
+It is possible to manage the playlists playing on the device remotely through the web interface, accessible on [kioskify.app/dashboard](https://kioskify.app/dashboard).
+
+### What has inside?
+
+-   Java
+-   ExoPlayer
+-   Cronet
+-   Retrofit
+-   Dagger 2
+-   React
+-   Next.js
+-   TypeScript
+-   Express
+-   BunnyCDN
+-   Google Transcoder API
+-   Google Cloud Firestore
+-   Google Cloud Storage
+-   Google Cloud PubSub
+-   Google Firebase Functions
+
+### Links:
+
+-   Site [https://kioskify.app/](https://kioskify.app/).
+-   Google Playstore [play.google.com](https://play.google.com/store/apps/details?id=dev.skhaz.kioskify).

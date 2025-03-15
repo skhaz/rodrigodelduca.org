@@ -1,0 +1,82 @@
+name: Rodrigo Delduca
+bio: "Always constantly learn; otherwise, you're doomed to irrelevance"
+repository: skhaz/rodrigodelduca.com.br
+
+external-image: false
+picture: assets/images/avatar.png
+
+dark-theme: false
+
+resume: true
+resume-external: false
+resume-url: resume
+
+# resume-external: true
+# resume-url: https://gcs.skhaz.dev/resume.pdf
+
+blog: true
+blog-url: https://nullonerror.org/
+
+vcard: false
+vcard-url:
+
+talks: true
+talks-url: https://speakerdeck.com/skhaz
+
+url: https://rodrigodelduca.com.br
+
+permalink: /:title/
+
+linkedin: skhaz
+github: skhaz
+email: rodrigo@delduca.org
+
+width: normal
+
+pagination:
+    enabled: false
+    sort_reverse: true
+    title: ":title"
+    per_page: 5
+    permalink: "/:num/"
+
+projects: true
+
+about: true
+
+#blog: false
+
+read-time: false
+
+show-tags: false
+
+related: false
+
+# post-advance-links: [blog]
+
+post-advance-links: []
+
+show-author: false
+
+animation: false
+
+defaults:
+    - scope:
+          path: ""
+          layout: "post"
+      values:
+          hidden: false
+
+plugins:
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jekyll-sitemap
+
+compress_html:
+    ignore:
+        envs:
+            - development
+            - stage
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "vendor"]
