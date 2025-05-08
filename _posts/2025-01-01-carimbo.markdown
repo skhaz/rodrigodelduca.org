@@ -1,7 +1,7 @@
 ---
 title: "Carimbo 2D game engine, developed in modern C++ and built upon SDL, with scripting capabilities using Lua"
 layout: post
-date: 2023-11-10 00:00
+date: 2025-01-01 00:00
 tag: c++, sdl, lua
 # image:
 headerImage: true
@@ -19,9 +19,12 @@ externalLink: false
 
 ### What has inside?
 
--   Modern C++
--   SDL
--   Lua
+-   Modern [C++20](https://en.cppreference.com/w/cpp/20)
+-   [SDL](https://libsdl.org/) v3
+-   [Lua](https://lua.org) & [LuaJIT](https://luajit.org)
+-   [OpenAL](https://www.openal.org)
+-   [Boost](https://www.boost.org)
+-   [PhysicsFS](https://icculus.org/physfs/)
 
 ### Links:
 
